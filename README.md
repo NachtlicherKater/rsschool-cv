@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://nachtlicherkater.github.io/rsschool-cv/cv
