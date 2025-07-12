@@ -165,17 +165,24 @@ p {
     font-size: 2.8rem;
 }
 
-#skills, #contacts {
+.skills, #contacts {
     padding: 50px 40px;
 }
 
-#skills p {
+.skills p {
     font-weight: bold;
     font-size: 2.4rem;
     padding: 10px 0;
 }
 
-#knowledge-text, #contacts-text, #projects-text, #code-text {
+.language-level {
+    text-align: right;
+    font-size: 2rem !important;
+    font-weight: normal;
+    margin: -10px 0;
+}
+
+#knowledge-text, #languages-text, #contacts-text, #projects-text, #code-text {
     margin-bottom: 20px;
     font-size: 3rem !important;
 }
@@ -189,7 +196,7 @@ p {
     overflow: hidden;
 }
 
-.git,.html, .css, .sql, .js, .ts {
+.git,.html, .css, .sql, .js, .russian, .ukrainian, .english {
     font-size: 1.8rem;
     text-align: right;
     height: 100%;
@@ -216,10 +223,17 @@ p {
     width: 1%;
 }
 
-.ts {
-    width: 0%;
+.russian {
+    width: 100%;
 }
 
+.ukrainian {
+    width: 90%;
+}
+
+.english {
+    width: 55%;
+}
 
 #contacts ul {
     list-style: none;
@@ -276,7 +290,7 @@ p {
 }
 
 #list-of-projects a {
-    width: 60%;
+    width: 70%;
 }
 
 
@@ -429,7 +443,7 @@ footer a {
         font-size: 1.9rem;
     }
 
-    #skills {
+    .skills {
         scroll-margin-top: 70px;
     }
 
@@ -438,7 +452,7 @@ footer a {
     }
 
     #list-of-projects a {
-        width: 80%;
+        width: 90%;
     }
 
     #code-example {
